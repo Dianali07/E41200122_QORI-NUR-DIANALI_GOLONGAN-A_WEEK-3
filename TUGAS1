@@ -12,12 +12,13 @@ package kelasdiana;
 public class tugas1 {
     public static void main(String [] args){
         String [] nama= {"QORI", "NUR", "DIANALI"} ;
+        System.out.print(nama[0] +" ");
+        System.out.print(nama[1] +" ");
+        System.out.println(nama[2]);
         System.out.println(nama[0]);
         System.out.println(nama[1]);
         System.out.println(nama[2]);
-        System.out.print(nama[0] +" ");
-        System.out.print(nama[1] +" ");
-        System.out.print(nama[2]);
+        System.out.println("Jumlah elemen array nama = " +nama.length);
         
     }
 }
