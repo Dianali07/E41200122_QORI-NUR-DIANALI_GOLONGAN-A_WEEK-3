@@ -1,0 +1,24 @@
+public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Masukkan Panjang Array :");
+        
+        int panjangArray = input.nextInt();
+        
+        int[] myArray = new int[panjangArray];
+        
+        for (int i = 0; i < panjangArray; i++) {
+            System.out.println("Masukkan Element Array Index ke " + i);
+            myArray[i] = input.nextInt();            
+        }
+        
+        System.out.println();
+        
+        System.out.println("Arrays:");
+        for (int i : myArray) {
+            System.out.print(i + " ");
+        }
+                
+               
+    }
