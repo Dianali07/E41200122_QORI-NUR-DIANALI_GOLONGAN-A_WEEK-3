@@ -1,0 +1,50 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kelasdiana;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author ROG
+ */
+public class TugasD {
+    public static void main(String[] args){
+ 
+        int total, masukkanpertama, masukkankedua, masukkanketiga, masukkankeempat, masukkankelima;
+       Scanner scan = new Scanner(System.in);
+        
+        System.out.println("-------------------------------------");
+        System.out.println("      Kharisma Agung Plaza <KAP>");
+        System.out.println("       Promo Belanja Berhadiah");
+        System.out.println("  Khusus Pembelian 5 Barang Pertama");
+        System.out.println("   Dengan harga minimum Rp 10000,00");
+        System.out.println("-------------------------------------");
+   
+        System.out.println("Masuukan nama pembeli : ");
+        String masukkan = scan.nextLine();
+    
+       System.out.println("Masukkan harga barang ke-1     : ");
+       masukkanpertama = scan.nextInt();
+       System.out.println("Masukkan harga barang ke-2     : ");
+       masukkankedua = scan.nextInt();
+       System.out.println("Masukkan harga barang ke-3     : ");
+       masukkanketiga = scan.nextInt();
+       System.out.println("Masukkan harga barang ke-4     : ");
+       masukkankeempat = scan.nextInt();
+       System.out.println("Masukkan harga barang ke-5     : ");
+       masukkankelima = scan.nextInt();
+       total = masukkanpertama+masukkankedua+masukkanketiga+masukkankeempat+masukkankelima;
+       System.out.println("Total harga pembelian atas nama " + masukkan+ " adalah Rp." +total);
+       
+       System.out.println("              Selamat....");
+       System.out.println("   Anda mendapat hadiah 1 buah mug cantik");
+       
+       System.out.println("----------------------------------------------");
+       System.out.println("            Terima Kasih");
+       System.out.println("Anda sudah belanja di KHarisma Agung Plaza");
+    }
+}
